@@ -1,0 +1,5 @@
+Review and finalize this Lucky Athletics website for Netlify deployment. Read README.md, ADDING-DESIGNS.md, CHANGES.md, VALIDATION.md and .github/copilot-instructions.md first.
+
+Keep the existing React, TypeScript and Vite stack, red/black/white branding, navigation and enquiry links. Preserve all 24 categories and 576 distinct product mockups. Show designs on realistic shaded product templates, with responsive, lazy-loaded AVIF images, and retain the improved homepage category cards and working color previews. Do not replace the mockups with flat pattern swatches.
+
+Install with pnpm install --frozen-lockfile, then run pnpm build, pnpm check, pnpm verify:mockups and pnpm verify:interactions. Fix any reproducible failures. Check mobile and desktop layouts if browser preview is available; clearly report any checks you cannot run. Keep netlify.toml using pnpm run build and dist. Explain changed files and how to add a design. Do not claim the live site is updated unless deployment actually succeeds.

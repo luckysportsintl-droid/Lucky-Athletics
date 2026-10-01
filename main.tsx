@@ -1,0 +1,12 @@
+import { createRoot, hydrateRoot } from "react-dom/client";
+import Page from "./app/page";
+import "./app/globals.css";
+import "@fontsource/barlow-condensed/700.css";
+import "@fontsource/barlow-condensed/800.css";
+import "@fontsource/manrope/400.css";
+import "@fontsource/manrope/500.css";
+import "@fontsource/manrope/600.css";
+import "@fontsource/manrope/700.css";
+const root = document.getElementById("root")!;
+if (root.hasChildNodes()) hydrateRoot(root, <Page />);
+else createRoot(root).render(<Page />);
